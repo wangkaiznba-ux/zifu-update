@@ -1,6 +1,6 @@
 {
-  "version": "4.3",
-  "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v4.3/V4.3.exe",
-  "md5": "9b9e1301d3b53ce08058a7b914784bc8",
-  "release_notes": "V4.3 更新\n\nBug修复：\n- 修复重复下载更新问题：已有安装包MD5匹配时直接安装，不重复下载\n- 增加下载重试机制：网络中断自动重试，解决远程主机强制关闭连接问题\n- 加强MD5校验：文件损坏时明确提示，避免替换失败"
+  "version": "4.32",
+  "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v4.3/V4.32.exe",
+  "md5": "4834329750878be2de0c2d9a14b6bc70",
+  "release_notes": "V4.32 更新\n\nBug修复：\n- 修复更新下载时UI无响应问题（下载改为后台线程）\n- 修复更新后无法重启问题：bat脚本等待时间从2秒增加到5秒，确保主程序完全退出后再替换\n- 修复重复下载更新问题：已有安装包MD5匹配时直接安装\n- 增加下载重试机制：网络中断自动重试"
 }

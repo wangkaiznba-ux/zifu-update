@@ -1,6 +1,6 @@
 {
   "version": "4.15",
   "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v4.15/V4.15.exe",
-  "md5": "2f5a7fe4b3d3cabda6c43538cbd90349",
-  "release_notes": "V4.15 测试版本\n\n仅用于测试在线更新功能，与V4.1功能完全一致，仅版本号不同。"
+  "md5": "e95bd83a10c1bd017672c5daa5587c85",
+  "release_notes": "V4.15 更新\n\n- 修复更新失败bug（subprocess未导入）\n- 增加GitHub镜像站下载支持，国内用户不开VPN也能更新\n- 检查更新时自动尝试多个镜像站，哪个能通用哪个"
 }

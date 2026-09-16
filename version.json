@@ -1,6 +1,6 @@
 {
-  "version": "4.2",
-  "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v4.2/V4.2.exe",
-  "md5": "a52678546b8a4c79f96b053a2936ecbc",
-  "release_notes": "V4.2 更新\n\n主要更新：\n- 更新下载增加进度条，显示已下载大小\n- 更新下载不阻塞主界面操作\n- 更新完成后弹窗提示，软件将自动重启\n- 重复打开软件时，询问是否终止旧进程\n\n功能优化：\n- 国内用户不开VPN也能通过镜像站更新\n- 修复更新失败bug（subprocess未导入）"
+  "version": "4.3",
+  "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v4.3/V4.3.exe",
+  "md5": "9b9e1301d3b53ce08058a7b914784bc8",
+  "release_notes": "V4.3 更新\n\nBug修复：\n- 修复重复下载更新问题：已有安装包MD5匹配时直接安装，不重复下载\n- 增加下载重试机制：网络中断自动重试，解决远程主机强制关闭连接问题\n- 加强MD5校验：文件损坏时明确提示，避免替换失败"
 }

@@ -1,7 +1,7 @@
 {
-      "version": "5.24",
-      "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v5.24/V5.24.exe",
-      "md5": "04e55406a79bf30110248d2dafd1fe6b",
-      "size": 49743101,
-      "release_notes": "自复密盒 V5.24（更新启动竞态修复版）\n\n- 更新提示居中显示；密码安全提醒关闭后再弹出，层级正确可拖动\n- 更新提示新增取消按钮：取消后提示程序即将关闭并退出（强制更新）\n- 修复自动更新反复弹python313.dll：替换前按exe名预杀旧进程、启动前清场等待，根治首启竞态\n- 版本号同步5.24（与5.23代码一致，仅版本号不同）"
+            "version": "5.26",
+            "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v5.26/V5.26.zip",
+            "md5": "35f2b48a8c48f859dfb5d0bdee3ffc2a",
+            "size": 48744300,
+            "release_notes": "自复密盒 V5.26（onedir 更新链路测试版）\n\n- onedir 架构：小启动器+_internal 常驻磁盘，根治更新后 python 解释器启动失败\n- 此版用于实测 5.25→5.26 在线更新"
 }

@@ -1,7 +1,7 @@
 {
-            "version": "5.26",
-            "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v5.26/V5.26.zip",
-            "md5": "35f2b48a8c48f859dfb5d0bdee3ffc2a",
-            "size": 48744300,
-            "release_notes": "自复密盒 V5.26（onedir 更新链路测试版）\n\n- onedir 架构：小启动器+_internal 常驻磁盘，根治更新后 python 解释器启动失败\n- 此版用于实测 5.25→5.26 在线更新"
+                  "version": "5.30",
+                  "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v5.30/V5.30.zip",
+                  "md5": "b5c3e87d4001053f2f5c999418f5c135",
+                  "size": 48643546,
+                  "release_notes": "自复密盒 V5.30（onedir 正式分发版）\n\n- onedir 架构：小启动器+_internal 常驻磁盘，根治更新后启动失败\n- 后续版本将启用增量补丁更新"
 }

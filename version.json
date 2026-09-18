@@ -1,7 +1,7 @@
 {
-  "version": "5.21",
-  "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v5.21/V5.21.exe",
-  "md5": "dda7cc470b6ab9e6c75f9dcd3d4c0cba",
-  "size": 49739791,
-  "release_notes": "自复密盒 V5.21 更新（在线更新链路验证版）\n\n- 版本号升级，用于验证在线更新的检测、下载、MD5校验、替换与启动监护重启全流程\n- 更新重启启动监护：自动去除下载文件网络标记、等待安全软件扫描、替换后首次启动失败自动重试最多4次，根治更新成功后偶发无法启动\n- 软件内置使用说明版本号同步为 V5.21"
+    "version": "5.22",
+    "download_url": "https://github.com/wangkaiznba-ux/zifu-update/releases/download/v5.22/V5.22.exe",
+    "md5": "aed43865e8afdde3cd9e21aee49b6fbd",
+    "size": 49742351,
+    "release_notes": "自复密盒 V5.22（在线更新首启竞态诊断版）\n\n- 为在线更新主控脚本 _update.bat 与 _launch.ps1 增加落盘日志 update_launch.log，定位替换成功但不自动重启、python313.dll 找不到模块的首启竞态\n- 修复按文件名排除：改为弹窗多选添加文件/文件夹并支持移除\n- 修复阅后即焚 PDF 查看器可被录屏绕过：显式声明 64 位 ctypes 签名，优先 WDA_EXCLUDEFROMCAPTURE 并回读确认\n- 内置使用说明版本号同步为 V5.22"
 }
